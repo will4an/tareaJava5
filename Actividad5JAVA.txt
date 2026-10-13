@@ -1,0 +1,29 @@
+1. 	porque esta respaldado internamente por un arreglo continuo en memoria, lo que permite un acceso directo en tiempo constante utilizando la posición numérica del elemento.
+	es una operación ineficiente porque cada vez que se inserta un elemento al inicio, todos los elementos existentes deben desplazarse una posición en la memoria
+
+2.	porque sus elementos están organizados en nodos conectados mediante punteros, al eliminar el primer nodo, solo se requiere actualizar la referencia del puntero inicial, logrando una complejidad de tiempo constante sin necesidad de desplazo el resto de elementos.
+	tiene un costo lineal(O(n)) en el peor de los casos generales si no se cuenta con una referencia directa, ya que LinkedList requiere recorrer la lista secuencialmente desde el primer nodo hasta llegar al final
+	
+3.	permite almacenar datos a un solo objeto envez de manejar variables sueltas, y al declarar los atributos en privado se evita que sean modificados directamente desde afuera de la clase permitiendo validar los datos antes de asignarlos
+
+4.	conviene usar arraylist, ya que su estructura de almacenamiento contiguo permite un acceso directo y rápido por índice en tiempo constante O(1), mientras que linkedList requeriría recorrer los elementos de forma secuencial, resultando mucho mas lenta(O(n)) para accesos por posición
+
+5. 	Si usas un ArrayList en lugar de un LinkedList para eliminar repetidamente el primer elemento, el programa seguirá funcionando correctamente, pero experimentará una pérdida drástica de rendimiento si la lista es grande.
+
+6.	Conviene usar un ArrayList<Empleado> en lugar de listas separadas porque el polimorfismo permite almacenar distintas subclases en una sola estructura.
+
+7.	 Conviene usar un LinkedList porque al atender vehículos en orden de llegada (tipo cola), eliminar al primero de la lista es una operación inmediata (O(1)) al cambiar solo punteros, evitando que el resto de los vehículos tengan que desplazarse como ocurriría en un ArrayList.
+
+8.	conviene usar ArrayList, porque accedes mucho al índice
+
+9.	LinkedList: 7-15ms ; ArrayList: 700-820ms
+
+10.	LinkedList, porque conviene al ser mas rapido para procesar eliminaciones en primera posicion
+
+11.	LinkedList, porque es mas rapida al procesar eliminacion de primera posicion, si fuera ArrayList seria mas ineficiente 
+
+12.
+
+13.	ArrayList
+
+14.	LinkedList
